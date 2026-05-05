@@ -1,0 +1,24 @@
+:root {
+
+  font-family: 'Temfont-Regular', 'Rubik' , monospace;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary: #65ffe9;
+  --secondary: #222b2d;
+
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+@font-face {
+  font-family: Temfont-Regular; /* set name */
+  src: url(assets/fonts/Temfont-Regular.otf); /* url of the font */
+}
