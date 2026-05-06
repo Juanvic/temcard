@@ -69,6 +69,7 @@ function Temcard() {
                         src="https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/81/TemCardPlus_render.png/revision/latest?cb=20190628153720"
                         alt="temcard"
                         className="card_image"
+                        loading="lazy"
                     />
                     {temtemImageSrc && (
                         <img
