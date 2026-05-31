@@ -8,7 +8,6 @@
 }
 
 .temtem_name {
-    color: #3a444d;
     text-transform: capitalize;
 }
 
@@ -26,6 +25,16 @@
 .card_frame {
     position: relative;
     width: 100%;
+    /* Rotaciona o card */
+    transform: rotateY(-35deg) rotateX(15deg);
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 15px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card_frame:hover {
+    transform: rotateY(-25deg) rotateX(10deg) translateZ(40px);
+    box-shadow: 30px 40px 45px rgba(0, 0, 0, 0.6);
 }
 
 .card_image {
@@ -41,7 +50,7 @@
     top: 24%;
     left: 50%;
     transform: translateX(-50%);
-    width: 44%;
+    width: 100%;
     max-width: 150px;
     height: auto;
     display: block;
