@@ -9,6 +9,8 @@
 
   --primary: #65ffe9;
   --secondary: #222b2d;
+  --white: #f3f4f6;
+  --bg-color: linear-gradient(to bottom, #1e69a7, #187c80);
 
 }
 
@@ -19,6 +21,6 @@
  }
 
 @font-face {
-  font-family: Temfont-Regular; /* set name */
-  src: url(assets/fonts/Temfont-Regular.otf); /* url of the font */
+  font-family: Temfont-Regular; 
+  src: url(assets/fonts/Temfont-Regular.otf); 
 }

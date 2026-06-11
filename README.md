@@ -27,9 +27,3 @@ This project has made using Vite + React, also with Javascript and using the fet
 
 ## Disclaimer
 The game **Temtem** is an MMO in the category of Monster Taming whose objective is to capture and manage monsters in turn-based battles against other players or bots, the game is available for computers and consoles (all trademark rights are reserved to developer Crema Games and the distributor Humble Games), this project does not aim to profit from the brand.
-
-## Build instructions
-
-1. Run the command **npm install** to install all the necessary packages
-2. Run the command **npm run dev** to run the project locally
-3. Run the command **npm run deploy** to deploy into github-pages

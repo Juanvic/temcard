@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background: linear-gradient(to bottom, #1e69a7, #187c80);
+    background: var(--bg-color);
 }
 
 .temtem_name {
