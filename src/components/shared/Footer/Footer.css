@@ -1,4 +1,9 @@
 .footer-container{
+    min-height: 2vh;
+    min-width: 100vw; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
     background: var(--secondary);
 }
 
